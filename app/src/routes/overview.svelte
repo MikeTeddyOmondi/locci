@@ -1,20 +1,14 @@
 <script>
-  // @ts-ignore
-  import Activity from "lucide-svelte/icons/activity";
-  // @ts-ignore
-  import ArrowUpRight from "lucide-svelte/icons/arrow-up-right";
-  // @ts-ignore
-  import CreditCard from "lucide-svelte/icons/credit-card";
-  // @ts-ignore
-  import DollarSign from "lucide-svelte/icons/dollar-sign";
-  // @ts-ignore
-  import Users from "lucide-svelte/icons/users";
+  import { Activity } from "lucide-svelte";
+  import { ArrowUpRight } from "lucide-svelte";
+  import { CreditCard } from "lucide-svelte";
+  import { DollarSign } from "lucide-svelte";
+  import { Users } from "lucide-svelte";
 
   import * as Avatar from "$lib/components/ui/avatar/index.js";
   import { Badge } from "$lib/components/ui/badge/index.js";
   import { Button } from "$lib/components/ui/button/index.js";
   import * as Card from "$lib/components/ui/card/index.js";
-
   import * as Table from "$lib/components/ui/table/index.js";
 
   import MenuBar from "$lib/components/MenuBar.svelte";
